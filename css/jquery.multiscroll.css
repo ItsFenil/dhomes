@@ -1,0 +1,153 @@
+/*!
+ * multiscroll.js 0.2.1
+ * https://github.com/alvarotrigo/multiscroll.js
+ * @license MIT licensed
+ *
+ * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
+ */
+/*html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}*/
+.ms-section {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ms-section.ms-table{
+    display: table;
+    width: 100%;
+}
+.ms-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.ms-easing {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+#multiscroll-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+}
+#multiscroll-nav.right {
+    right: 17px;
+}
+#multiscroll-nav.left {
+    left: 17px;
+}
+#multiscroll-nav ul{
+  margin: 0;
+  padding: 0;
+}
+#multiscroll-nav li{
+    display: block;
+    position:relative;
+}
+#multiscroll-nav li a{
+    display: block; padding:15px 17px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#multiscroll-nav li .active span{
+    background: #333;
+}
+#multiscroll-nav li .active span{
+    -webkit-transform:scale3d(2,2,1);  transform:scale3d(2,2,1);  box-shadow:inset 0 0 0 1px #000;  background-color:transparent;opacity:1;
+ }
+#multiscroll-nav span{
+ border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 6px;
+    width: 6px;
+    border: 0;
+    /*background: #333;*/box-shadow: 0 0 0 5px #000 inset;opacity:0.4;
+    left: 50%;
+    top: 50%;
+    margin: -3px 0 0 -3px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.multiscroll-tooltip {
+   position: absolute;
+    top:0;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    width: 0;
+    cursor: pointer;
+}
+
+#multiscroll-nav ul li:hover .multiscroll-tooltip{
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+    width: auto;
+    opacity: 1;
+}
+
+#multiscroll-nav ul li .multiscroll-tooltip.right {right: 30px;opacity:1;}
+.multiscroll-tooltip.left {
+    left: 20px;
+}
+.ms-responsive .ms-hide{
+    display: none;
+}
+.ms-scrollable {
+    overflow: hidden;
+    position: relative;
+}
+.ms-scroller{
+    overflow: hidden;
+}
+.iScrollIndicator{
+    border: 0 !important;
+}
+
+
+/*Split Slider CSS Start*/
+@media (max-width:1050px) {
+html.apress_split_slider_enable {
+	overflow: visible !important;
+	height: auto !important;
+}
+html.apress_split_slider_enable body.page-template-template-split-page {
+	overflow: visible !important;
+	height: auto !important;
+}
+
+html.apress_split_slider_enable body .vertical_split_slider {
+	height: auto !important;
+}
+html.apress_split_slider_enable body .vertical_split_slider .ms-left, 
+html.apress_split_slider_enable body .vertical_split_slider .ms-right {
+	width: 100% !important;
+	height: auto !important;
+	position: relative !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	touch-action: auto !important;
+}
+}
