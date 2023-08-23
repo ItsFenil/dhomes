@@ -1,0 +1,509 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Properties</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <!-- Fonts (google font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Tajawal:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <!-- Font awesome Stylesheet -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Owl Carousel stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Modal Video stylesheet -->
+    <link rel="stylesheet" href="css/modal-video.min.css">
+    <!-- Owl theme stylesheet -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- AOS stylesheet -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- Animated heading stylesheet -->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+ <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#headerimport').load('header.html');
+        })
+    </script>
+    <script>
+        $(function(){
+            $('#footerimport').load('footer.html');
+        })
+    </script>
+<style>
+        /* Add CSS styles for the dropdown menu */
+        .header-menu li:hover > ul {
+            display: block;
+        }
+
+        .header-menu ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 0;
+            list-style: none;
+        }
+
+        .header-menu ul li {
+            padding: 8px 12px;
+        }
+
+        .header-menu ul li:hover {
+            background-color: #ddd;
+        }
+
+        /* Update styles for left-side submenu */
+        .header-menu ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        /* Update styles for nested submenus */
+        .header-menu ul ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        /* Style for the dropdown menu */
+.sub-menu {
+    display: none;
+}
+
+/* Show the dropdown when hovering over the Properties link */
+li:click .sub-menu {
+    display: block;
+}
+
+.sub-menu,
+    .sub-sub-menu {
+        display: none;
+    }
+
+    li:click .sub-menu {
+        display: block;
+    }
+
+
+    .one:click .sub-sub-menu {
+        display: block;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <main class="home-one overflow-x-hidden">
+        <!-- start preloader -->
+        <div id="preloader">
+            <div id="preloader-inner"></div>
+        </div>
+        <!-- end preloader -->
+        <!-- start header -->
+        <div id="headerimport"></div>
+        
+        <!-- end header -->
+        <!-- start inner page banner-->
+        <section class="inner-page-banner section-padding-bottom-xl section-padding-top-xl">
+            <div class="container">
+                <div class="inner-page-banner-wrapper d-flex justify-content-center align-items-center">
+                    <h2 class="h2 dark-text fw-700 line-height-3 text-center">
+                        All Properties
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <!-- end inner page banner-->
+        
+        <!-- start projects -->
+        <section class="projects-one section-padding-bottom-xl section-padding-top-xl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 ">
+                                <div class="projects-one-item">
+                                    <a href="properties_in_gurugram.html">
+                                        <h2 class="h2 text-uppercase fw-700 line-height-3 projects-text-stroke d-inline-block stroke-mobile-position">
+                                            GURUGRAM
+                                        </h2>
+                                    </a>
+                                    <div>
+                                        <h2 class="h2 text-white fw-700 line-height-3 mb-90 appear-text projects-section-title">
+                                            Find Properties In Your City
+                                        </h2>
+                                        <div class="project-img-ontainer">
+                                            <img class="home-one-portfolio-first-img" src="images/gurugram.jpg" alt="project image">
+                                            <a href="properties_in_gurugram.html" class="btn text-uppercase project-btn">
+                                                <span class="position-relative z-1">View Properties</span>
+                                                <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                                            </a>
+                                        </div>
+                                        <h6 class="h6 dark-text line-height-3 fw-700 mt-15">GURUGRAM</h6>
+                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="100" href="contact.html" class="btn brand-btn text-uppercase mt-100 d-none d-lg-inline-block">
+                                            <span class="z-1 position-relative">Contact Us To Know More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 ">
+                                <div class="mt-5 mt-lg-0">
+                                    <div class="ml-100 projects-one-item">
+                                        <a href="properties_in_newdelhi.html">
+                                            <h2 class="h2 text-uppercase fw-700 line-height-3 projects-text-stroke d-inline-block">
+                                               New Dehli</h2>
+                                        </a>
+                                        <div class="projects-one-contents">
+                                            <div class="project-img-ontainer">
+                                                <img class="home-one-portfolio-second-img" src="images/newdelhi.jpg" alt="project image">
+                                                <a href="properties_in_newdelhi.html" class="btn text-uppercase project-btn">
+                                                    <span class="position-relative z-1">View Properties</span>
+                                                    <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                                                </a>
+                                            </div>
+                                            <h6 class="h6 dark-text line-height-3 fw-700 mt-15">New Dehli
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="project-item-left-padding mt-60 projects-one-item">
+                                        <a href="properties_in_noida.html">
+                                            <h2 class="h2 text-uppercase fw-700 line-height-3 projects-text-stroke d-inline-block project-text-stroke-utility">
+                                                NOIDA</h2>
+                                        </a>
+                                        <div class="projects-contents">
+                                            <div class="project-img-ontainer text-end">
+                                                <img class="home-one-portfolio-third-img" src="images/noida.jpg" alt="project image">
+                                                <a href="properties_in_noida.html" class="btn text-uppercase project-btn">
+                                                    <span class="position-relative z-1">View Properties</span>
+                                                    <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                                                </a>
+                                            </div>
+                                            <h6 class="h6 dark-text line-height-3 fw-700 mt-15">NOIDA
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="project-mobile-cta-button">
+                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="100" href="contact.html" class="btn brand-btn text-uppercase mt-60 d-inline-block d-lg-none">
+                                            <span class="z-1 position-relative">Contact Us To Know More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end projects -->
+
+        <!-- start services -->
+        <section class="services-one section-padding-top-xl section-padding-bottom-xl bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <h2 class="h2 text-black line-height-3 appear-text-dark">
+                                        Some of our best Condominiums
+                                    </h2>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-one-card-container mt-80 position-relative">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item service-one-card position-relative">
+                                    <div class="service-imag">
+                                        <img src="images\SignatureGlobalCity92\6.jpg" class="w-100 position-relative" alt="Service Images" style="opacity: 0.4;">
+                                    </div>
+                                    <div class="position-absolute service-one-contents z-1">
+                                        <h5 class="h5 fw-700 text-white line-height-3 mb-25">
+                                            Signature Global City 92
+                                        </h5>
+                                        <p class="p text-white fw-500 line-height-5 mb-65">
+                                           <strong> FOR SALE | APARTMENT</strong> <br/><strong>Loaction:</strong> Gurugram<br/><strong> Bedrooms:</strong> 2/3,<br/> <strong>Bathrooms:</strong> 2/3,<br/> <strong>Property size:</strong> 1190-2009 ft²
+
+                                        </p>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="item service-one-card position-relative">
+                                    <div class="service-imag">
+                                        <img src="images/SignatureGlobalCity93/1.jpg" alt="Service Images" style="opacity: 0.4;">
+                                    </div>
+                                    <div class="position-absolute service-one-contents z-1">
+                                        <h5 class="h5 fw-700 text-white line-height-3 mb-25">
+                                            Signature Global City 93
+                                        </h5>
+                                        <p class="p text-white fw-500 line-height-5 mb-65">
+                                           <strong> FOR SALE | APARTMENT</strong> <br/><strong>Loaction:</strong> Gurugram<br/><strong> Bedrooms:</strong> 2/3,<br/> <strong>Bathrooms:</strong> 2/3,<br/> <strong>Property size:</strong> 1414-2395 ft²
+
+                                        </p>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="service-one-card-stroke position-absolute"></div>
+                                </div>
+                                <div class="item service-one-card position-relative">
+                                    <div class="service-imag">
+                                        <img src="images/𝗕𝗛𝗨𝗧𝗔𝗡𝗜𝗖𝗬𝗕𝗘𝗥𝗧𝗛𝗨𝗠/1.jpg" alt="Service Images" style="opacity: 0.5;">
+                                    </div>
+                                    <div class="position-absolute service-one-contents z-1">
+                                        <h5 class="h5 fw-700 text-white line-height-3 mb-25">
+                                            Bhutani Cyberthum
+                                        </h5>
+                                        <p class="p text-white fw-500 line-height-5 mb-65">
+                                           <strong> COMMERCIAL | FOR SALE | HOT OFFER!</strong> <br/><strong>Loaction:</strong> Noida<br/><strong>Property size:</strong> 100 SQ. FT. Onwards ft²
+
+                                        </p>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="service-one-card-stroke position-absolute"></div>
+                                </div>
+                                <div class="item service-one-card position-relative">
+                                    <div class="service-imag">
+                                        <img src="images/ArawaliHomes2/1.jpeg" alt="Service Images" style="opacity: 0.4;">
+                                    </div>
+                                    <div class="position-absolute service-one-contents z-1">
+                                        <h5 class="h5 fw-700 text-white line-height-3 mb-25">
+                                            Arawali Homes 2
+                                        </h5>
+                                        <p class="p text-white fw-500 line-height-5 mb-65">
+                                           <strong>APARTMENT</strong> <br/><strong>Loaction:</strong> Sohna<br/><strong> Bedrooms:</strong> 3,<br/> <strong>Bathrooms:</strong> 2,<br/> <strong>Property size:</strong> 645 ft²
+
+                                        </p>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                    <div class="service-one-card-stroke position-absolute"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a href="contact.html" class="btn brand-btn text-uppercase mt-30"><span class="z-1 position-relative">Contact To Know More</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end services -->
+
+        <!-- start testimonial -->
+        <section class="testimonial-one section-padding-top-xl section-padding-bottom bg-white overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <div class="testimonial-one-slider-wrapper position-relative">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item testimonial-one-card">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-2">
+                                                <img class="testimonial-one-quote-icon" src="images/quoteIcon.png" alt="quote icon">
+                                            </div>
+                                            <div class="col-12 col-lg-10">
+                                                <div class="testimonial-item-content">
+                                                    <h3 class="h3 fw-700 line-height-1 dark-text mb-50">
+                                                        I was so impressed with the level of service I received from Discovery Homes India. They were always available to answer my questions, and they really took the time to understand what I was looking for. I would definitely recommend them to anyone looking to buy or sell a home.
+                                                    </h3>
+                                                    <p class="dark-text fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5 mb-1">
+                                                        From GURUGRAM
+                                                    </p>
+                                                    <h6 class="h6 fw-700 line-height-3 dark-text">
+                                                        Harsh Patel
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item testimonial-one-card">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-2">
+                                                <img class="testimonial-one-quote-icon" src="images/quoteIcon.png" alt="quote icon">
+                                            </div>
+                                            <div class="col-12 col-lg-10">
+                                                <div class="testimonial-item-content">
+                                                    <h3 class="h3 fw-700 line-height-1 dark-text mb-50">
+                                                        I was a first-time homebuyer, and I was really nervous about the process. But Discovery Homes India made it so easy for me. They were patient and understanding, and they walked me through everything step-by-step. I couldn't have done it without them.
+                                                    </h3>
+                                                    <p class="dark-text fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5 mb-1">
+                                                        From SOHNA
+                                                    </p>
+                                                    <h6 class="h6 fw-700 line-height-3 dark-text">
+                                                        Vishal Mishra
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item testimonial-one-card">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-2">
+                                                <img class="testimonial-one-quote-icon" src="images/quoteIcon.png" alt="quote icon">
+                                            </div>
+                                            <div class="col-12 col-lg-10">
+                                                <div class="testimonial-item-content">
+                                                    <h3 class="h3 fw-700 line-height-1 dark-text mb-50">
+                                                        I was looking for a real estate agent who would be honest and upfront with me, and I found that in Discovery Homes India. They were transparent about the process, and they never tried to pressure me into anything. I'm so glad I chose them to help me buy my new home.
+                                                    </h3>
+                                                    <p class="dark-text fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5 mb-1">
+                                                        From NOIDA
+                                                    </p>
+                                                    <h6 class="h6 fw-700 line-height-3 dark-text">
+                                                        Swapnil Shah
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end testimonial -->
+      <section class="justify-content-center">
+
+
+         <div style="text-align: center; background: #ddd; padding-top: 50px;">
+        <h2 class="h2 text-white line-height-3 appear-text">Top Real Estate Developers</h2>
+    </div>
+      <div class="wrapper">
+          <div class="slider">
+            <div class="slide">
+              <img src="images/clients1.png" />
+              <img src="images/clients2.png" />
+              <img src="images/clients3.png" />
+              <img src="images/clients4.png" />
+              <img src="images/clients5.png" />
+              <img src="images/clients6.png" />
+              <img src="images/clients7.png" />
+            </div>
+            <div class="slide">
+              <img src="images/clients1.png" />
+              <img src="images/clients2.png" />
+              <img src="images/clients3.png" />
+              <img src="images/clients4.png" />
+              <img src="images/clients5.png" />
+              <img src="images/clients6.png" />
+              <img src="images/clients7.png" />
+            </div>
+          </div>
+      </div></section>
+
+      <!-- start count -->
+        <section class="count-one section-padding-bottom-xl section-padding-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-xl-3">
+                        <div class="count-one-border position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
+                            <div class="counter-container">
+                                <h1 class="h1 dark-text"><span class="counter1">46</span>K</h1>
+                                <h4 class="h4 fw-400 line-height-1 body-text">
+                                    Project Completed
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="count-one-border position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
+                            <div class="counter-container">
+                                <h1 class="h1 dark-text"><span class="counter1">3</span>K</h1>
+                                <h4 class="h4 fw-400 line-height-1 body-text">
+                                    Happy customers
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="count-one-border position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
+                            <div class="counter-container">
+                                <h1 class="h1 dark-text"><span class="counter1">126</span></h1>
+                                <h4 class="h4 fw-400 line-height-1 body-text">
+                                    Properties sold
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-xl-3">
+                        <div class="position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
+                            <div class="counter-container">
+                                <h1 class="h1 dark-text"><span class="counter1s">24</span></h1>
+                                <h4 class="h4 fw-400 line-height-1 body-text">
+                                    Awards Achievement
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end count -->
+        <!-- start work together -->
+        <section class="work-together ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-center flex-column work-together-content-wrapper">
+                            <p class="p text-white fw-500 line-height-3 mb-10">
+                                Let’s Work Together
+                            </p>
+                            <h2 class="h2 fw-700 line-height-3 text-white text-center">Let's Create Your Dream Space
+                                Together!</h2>
+                            <a href="contact.html" class="btn brand-btn text-uppercase mt-50 border-0"><span class="z-1 position-relative">Contact Us Now</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end work together -->
+        
+        <!-- start footer -->
+        <div id="footerimport"></div>
+        <!-- end footer -->
+    </main>
+
+    <!-- Jquery script -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Font awesome script -->
+    <script src="js/all.min.js"></script>
+    <!-- Modal video script -->
+    <script src="js/jquery-modal-video.min.js"></script>
+    <!-- Owl carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- AOS script -->
+    <script src="js/aos.js"></script>
+    <!-- jQuery Counterup -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Preloader script -->
+    <script src="js/jquery.preloader.min.js"></script>
+    <!-- Jquery viewport checker script -->
+    <script src="js/jquery.viewportchecker.min.js"></script>
+    <!-- textyle script -->
+    <script src="js/textyle.min.js"></script>
+    <!-- animated headline script -->
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <!-- Main JS script -->
+    <script src="js/main.js"></script>
+
+
+</body></html>

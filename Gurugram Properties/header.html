@@ -1,0 +1,314 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <!-- Fonts (google font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Tajawal:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <!-- Font awesome Stylesheet -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Owl Carousel stylesheet -->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <!-- Modal Video stylesheet -->
+    <link rel="stylesheet" href="../css/modal-video.min.css">
+    <!-- Owl theme stylesheet -->
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <!-- AOS stylesheet -->
+    <link rel="stylesheet" href="../css/aos.css">
+    <!-- Animated heading stylesheet -->
+    <link rel="stylesheet" href="../css/jquery.animatedheadline.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css1/style1.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="../css/responsive.css">
+<style>
+        /* Add CSS styles for the dropdown menu */
+        .header-menu li:hover > ul {
+            display: block;
+        }
+
+        .header-menu ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 0;
+            list-style: none;
+        }
+
+        .header-menu ul li {
+            padding: 8px 12px;
+        }
+
+        .header-menu ul li:hover {
+            background-color: #ddd;
+        }
+
+        /* Update styles for left-side submenu */
+        .header-menu ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        /* Update styles for nested submenus */
+        .header-menu ul ul ul {
+            top: 0;
+            left: 100%;
+        }
+
+        /* Style for the dropdown menu */
+.sub-menu {
+    display: none;
+}
+
+/* Show the dropdown when hovering over the Properties link */
+li:click .sub-menu {
+    display: block;
+}
+
+.sub-menu,
+    .sub-sub-menu {
+        display: none;
+    }
+
+    li:click .sub-menu {
+        display: block;
+    }
+
+
+    .one:click .sub-sub-menu {
+        display: block;
+    }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <main class="home-one overflow-x-hidden">
+        <!-- start preloader -->
+        
+        <!-- end preloader -->
+        <!-- start header -->
+        <header class="header dark-header position-absolute top-0 left-0 z-3 w-100 pt-35">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="nav d-flex align-items-center justify-content-between">
+                            <!-- logo -->
+                            <div class="logo-container">
+                                <img class="header-logo" src="../images/logo.png" alt="logo">
+                            </div>
+                            <div class="nav-menu d-flex align-items-center">
+                                <ul class="header-menu d-none d-lg-flex flex-row align-items-center z-1 position-relative mr-35 menu">
+        <li>
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../index.html">Home</a>
+        </li>
+        <li>
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../aboutus.html">About Us</a>
+        </li>
+        <li class="has-dropdown">
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../properties.html">Properties <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+            <ul>
+                <li>
+                    <a class="menu-link text-uppercase fw-500" href="../properties.html">All Properties</a>
+                </li>
+                <li class="has-dropdown">
+                    <a class="menu-link text-uppercase fw-500" href="#">Option 1 &#8680;</a>
+                    <ul>
+                        <li><a href="#">Submenu 1</a></li>
+                        <li><a href="#">Submenu 2</a></li>
+                        <li><a href="#">Submenu 3</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a class="menu-link text-uppercase fw-500" href="#">Option 2 &#8680;</a>
+                    <ul>
+                        <li class="has-dropdown">
+                            <a class="menu-link text-uppercase fw-500" href="#">Submenu 1 &#8680;</a>
+                            <ul>
+                                <li><a href="#">Sub-submenu 1</a></li>
+                                <li><a href="#">Sub-submenu 2</a></li>
+                                <li><a href="#">Sub-submenu 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Submenu 2</a></li>
+                        <li><a href="#">Submenu 3</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a class="menu-link text-uppercase fw-500" href="#">Option 3 &#8680;</a>
+                    <ul>
+                        <li><a href="#">Submenu 1</a></li>
+                        <li><a href="#">Submenu 2</a></li>
+                        <li><a href="#">Submenu 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../career.html">Career</a>
+        </li>
+        <li>
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../Become_a_Real_Estate_Agent.html">Become a Real Estate Agent</a>
+        </li>
+        <li>
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../blog.html">Blog</a>
+        </li>
+        <li>
+            <a class="menu-link text-uppercase fw-500" style="color: black;" href="../contact.html">Contact Us</a>
+        </li>
+    </ul>
+                                <div class="desktop-menu-offcanvas position-relative ">
+                                    <img class="off-canvas-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" src="../images/menuToggleIvonTwo.png" alt="menu toggle icon">
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                        <div class="offcanvas-header logo-container">
+                                            <img id="offcanvasRightLabel" class="header-logo offcanvas-title img-fluid" src="../images/logo.png" alt="logo">
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <ul class="accordion-menu">
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="../index.html">Home</a>
+            </span>
+        </div>
+    </li>
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="../aboutus.html">About Us</a>
+            </span>
+        </div>
+    </li>
+    <li>
+        <!-- Add a nested ul element for the "Properties" dropdown -->
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                Properties <i class="fa fa-chevron-down" aria-hidden="true"></i><!-- The label for the dropdown -->
+            </span>
+        </div>
+        <!-- Nested ul element containing the dropdown options -->
+        <ul class="sub-menu">
+            <li class="one">
+                <div class="dropdownlink" style="color: black;">
+                    <span class="text-uppercase"> <a href="../properties.html">All Properties</a></span>
+                </div>
+                <!-- Sub-menu for Property 1 -->
+            </li>
+            <li class="one">
+                <div class="dropdownlink" style="color: black;">
+                    <span class="text-uppercase">Property 1 &#x25BC;</span>
+                </div>
+                <!-- Sub-menu for Property 1 -->
+                <ul class="sub-sub-menu">
+                    <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
+                    <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li>
+                    <!-- Add more sub-menu items as needed -->
+                </ul>
+            </li>
+            <li class="one">
+                <div class="dropdownlink" style="color: black;">
+                    <span class="text-uppercase">Property 2 &#x25BC;</span>
+                </div>
+                <!-- Sub-menu for Property 2 -->
+                <ul class="sub-sub-menu">
+                    <li><a href="property2-sub1.html">Property 2 Submenu 1</a></li>
+                    <li><a href="property2-sub2.html">Property 2 Submenu 2</a></li>
+                    <!-- Add more sub-menu items as needed -->
+                </ul>
+            </li>
+            
+                <li class="one">
+                <div class="dropdownlink" style="color: black;">
+                    <span class="text-uppercase">Property 3 &#x25BC;</span>
+                </div>
+                <!-- Sub-menu for Property 3 -->
+                <ul class="sub-sub-menu">
+                    <li><a href="property3-sub1.html">Property 3 Submenu 1</a></li>
+                    <li><a href="property3-sub2.html">Property 3 Submenu 2</a></li>
+                    <!-- Add more sub-menu items as needed -->
+                </ul>
+            
+        </li>
+        </ul>
+    </li>
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="../career.html">Career</a>
+            </span>
+        </div>
+    </li>
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="../Become_a_Real_Estate_Agent.html">Become a Real Estate Agent</a>
+            </span>
+        </div>
+    </li>
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="../blog.html">Blog</a>
+            </span>
+        </div>
+    </li>
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="../contact.html">Contact Us</a>
+            </span>
+        </div>
+    </li>
+</ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
+     <!-- Jquery script -->
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Font awesome script -->
+    <script src="../js/all.min.js"></script>
+    <!-- Modal video script -->
+    <script src="../js/jquery-modal-video.min.js"></script>
+    <!-- Owl carousel script -->
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- AOS script -->
+    <script src="../js/aos.js"></script>
+    <!-- jQuery Counterup -->
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <!-- Preloader script -->
+    <script src="../js/jquery.preloader.min.js"></script>
+    <!-- Jquery viewport checker script -->
+    <script src="../js/jquery.viewportchecker.min.js"></script>
+    <!-- textyle script -->
+    <script src="../js/textyle.min.js"></script>
+    <!-- animated headline script -->
+    <script src="../js/jquery.animatedheadline.min.js"></script>
+    <!-- Main JS script -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -32,6 +32,12 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Responsive stylesheet -->
     <link rel="stylesheet" href="css/responsive.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#footerimport').load('footer.html');
+        })
+    </script>
 <style>
         /* Add CSS styles for the dropdown menu */
         .header-menu li:hover > ul {
@@ -118,13 +124,81 @@ li:click .sub-menu {
             <a class="menu-link text-uppercase fw-500" href="index.html">Home</a>
         </li>
         <li>
-            <a class="menu-link text-uppercase fw-500" href="about.html">About Us</a>
+            <a class="menu-link text-uppercase fw-500" href="aboutus.html">About Us</a>
         </li>
         <li class="has-dropdown">
-            <a class="menu-link text-uppercase fw-500" href="#">Properties <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+            <a class="menu-link text-uppercase fw-500" href="properties.html">Our Best Properties <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <ul>
+                <li>
+                    <a class="menu-link text-uppercase fw-500" href="properties.html">Our Best Properties</a>
+                </li>
+                
                 <li class="has-dropdown">
-                    <a class="menu-link text-uppercase fw-500" href="#">Option 1 &#8680;</a>
+                    <a class="menu-link text-uppercase fw-500" href="properties_in_gurugram.html">Gurugram &#8680;</a>
+                    <ul>
+                        <!-- <li class="has-dropdown"> -->
+                            <li><a href="Signature_Global_City_37D.html">Signature Global City 37D</a></li>
+                        <li><a href="Signature_Global_City_92_2.html">Signature Global City 92 - 2</a></li>
+                        <li><a href="Signature_Global_City_93.html">Signature Global City 93</a></li>
+                        <li><a href="Ganga_Realty-Tathastu.html">Ganga Realty Tathastu</a></li>
+                            <!-- <p style="cursor: default; font-weight: 500" class="menu-link text-uppercase fw-500" href="#">Sohna &#8680;</p>
+                            <ul>
+                                 <li class="has-dropdown">
+                                    <a style="font-weight: 500" class="menu-link text-uppercase fw-500" href="properties_in_gurugram.html">Highrise</a>
+                                    
+                                </li>
+                                <li class="has-dropdown">
+                                    <p style="cursor: default; font-weight: 500" class="menu-link text-uppercase fw-500" href="#">Lowrise &#8680;</p>
+                                    <ul>
+                                        <li><a href="propertydetails.html">SIGNATURE GLOBAL PARK 1</a></li>
+                                        <li><a href="propertydetails.html">SIGNATURE GLOBAL PARK 2</a></li>
+                                        <li><a href="propertydetails.html">SIGNATURE GLOBAL PARK 3</a></li>
+                                        <li><a href="propertydetails.html">SUPER TECH</a></li>
+                                        <li><a href="propertydetails.html">CENTRALPARK( FLOWER VELLY)</a></li>
+                                        <li><a href="propertydetails.html">FLORA</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <p style="cursor: default; font-weight: 500" class="menu-link text-uppercase fw-500" href="#">Commercials &#8680;</p>
+                                    <ul>
+                                        <li><a href="propertydetails.html">THE LEAF MALL</a></li>
+                                        <li><a href="propertydetails.html">INFINITY MALL</a></li>
+                                        <li><a href="propertydetails.html">GANGA REALITY</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <p style="cursor: default; font-weight: 500" class="menu-link text-uppercase fw-500" href="#">Plots &#8680;</p>
+                                    <ul>
+                                        <li><a href="propertydetails.html">ROF NORMENTAL DDJAY</a></li>
+                                        <li><a href="propertydetails.html">PYRAMID SPRING VELLY DDJAY</a></li>
+                                        <li><a href="propertydetails.html">ILD HOMES DDJAY</a></li>
+                                        <li><a href="propertydetails.html">ATS HOMES CRAFT DDJAY</a></li>
+                                        <li><a href="propertydetails.html">IREO</a></li>
+                                        <li><a href="propertydetails.html">SANTOR DDJAY</a></li>
+                                        <li><a href="propertydetails.html">N S ARCUS (ANAND NIKETAN)</a></li>
+                                        <li><a href="propertydetails.html">ANSAL (SIWA SOM VELLY)</a></li>
+                                        <li><a href="propertydetails.html">SUPER TECH</a></li>
+                                        <li><a href="propertydetails.html">MKS PLOTS COUNTRY DDJAY</a></li>
+                                        <li><a href="propertydetails.html">VARDHWAN DDJAY</a></li>
+                                        <li><a href="propertydetails.html">CENTRALPARK( FLOWER VELLY)</a></li>
+                                        <li><a href="propertydetails.html">GLS ARAWALI VIEW DDJAY</a></li>
+                                        <li><a href="propertydetails.html">IREO</a></li>
+                                        <li><a href="propertydetails.html">MAFFIER GOLDEN PARK</a></li>
+                                        <li><a href="propertydetails.html">SOHNA GREENS</a></li>
+                                        <li><a href="propertydetails.html">PARAS EKAM DDJAY</a></li>
+                                        <li><a href="propertydetails.html">CORONA GREENS DDJAY</a></li>
+                                        <li><a href="propertydetails.html">PRECORE CITY DDJAY</a></li>
+                                        <li><a href="propertydetails.html">GOCULAM DDJAY</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul> -->
+                        <!-- </li> -->
+                        
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a class="menu-link text-uppercase fw-500" href="properties_in_newdelhi.html">New Delhi &#8680;</a>
                     <ul>
                         <li><a href="#">Submenu 1</a></li>
                         <li><a href="#">Submenu 2</a></li>
@@ -132,22 +206,7 @@ li:click .sub-menu {
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a class="menu-link text-uppercase fw-500" href="#">Option 2 &#8680;</a>
-                    <ul>
-                        <li class="has-dropdown">
-                            <a class="menu-link text-uppercase fw-500" href="#">Submenu 1 &#8680;</a>
-                            <ul>
-                                <li><a href="#">Sub-submenu 1</a></li>
-                                <li><a href="#">Sub-submenu 2</a></li>
-                                <li><a href="#">Sub-submenu 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Submenu 2</a></li>
-                        <li><a href="#">Submenu 3</a></li>
-                    </ul>
-                </li>
-                <li class="has-dropdown">
-                    <a class="menu-link text-uppercase fw-500" href="#">Option 3 &#8680;</a>
+                    <a class="menu-link text-uppercase fw-500" href="properties_in_noida.html">Noida &#8680;</a>
                     <ul>
                         <li><a href="#">Submenu 1</a></li>
                         <li><a href="#">Submenu 2</a></li>
@@ -157,7 +216,10 @@ li:click .sub-menu {
             </ul>
         </li>
         <li>
-            <a class="menu-link text-uppercase fw-500" href="portfolio.html">Career</a>
+            <a class="menu-link text-uppercase fw-500" href="career.html">Career</a>
+        </li>
+        <li>
+            <a class="menu-link text-uppercase fw-500" href="Become_a_Real_Estate_Agent.html">Become a Real Estate Agent</a>
         </li>
         <li>
             <a class="menu-link text-uppercase fw-500" href="blog.html">Blog</a>
@@ -185,7 +247,7 @@ li:click .sub-menu {
     <li>
         <div class="dropdownlink">
             <span class="text-uppercase">
-                <a href="about.html">About Us</a>
+                <a href="aboutus.html">About Us</a>
             </span>
         </div>
     </li>
@@ -200,18 +262,78 @@ li:click .sub-menu {
         <ul class="sub-menu">
             <li class="one">
                 <div class="dropdownlink" style="color: black;">
-                    <span class="text-uppercase">Property 1 &#x25BC;</span>
+                    <span class="text-uppercase"> <a href="properties.html">All Properties</a></span>
+                </div>
+                <!-- Sub-menu for Property 1 -->
+            </li>
+            <li class="one">
+                <div class="dropdownlink" style="color: black;">
+                    <span class="text-uppercase">Gurugram &#x25BC;</span>
                 </div>
                 <!-- Sub-menu for Property 1 -->
                 <ul class="sub-sub-menu">
-                    <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
-                    <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li>
+                    <li class="one">
+                        <div class="dropdownlink" style="color: black;">
+                            <span style="padding-left: 10px" class="text-uppercase">Sohna &#x25BC;</span>
+                        </div>
+                        <ul class="sub-sub-menu">
+                            <li class="one">
+                                 <div class="dropdownlink" style="color: black;">
+                                    <span style="padding-left: 10px" class="text-uppercase">Highrise &#x25BC;</span>
+                                </div>
+                                <ul class="sub-sub-menu">
+                                    <li class="one">
+                                        <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
+                                        <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li>
+                                    <!-- Add more sub-menu items as needed -->
+                                    </li>
+                                </ul>
+                             <!-- mega 2 -->
+                               <div class="dropdownlink" style="color: black;">
+                                    <span style="padding-left: 10px" class="text-uppercase">Lowrise &#x25BC;</span>
+                                </div>
+                                <ul class="sub-sub-menu">
+                                    <li class="one">
+                                        <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
+                                        <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li>
+                                    <!-- Add more sub-menu items as needed -->
+                                    </li>
+                                </ul>
+                                 <!-- mega 3 -->
+                               <div class="dropdownlink" style="color: black;">
+                                    <span style="padding-left: 10px" class="text-uppercase">Commercials &#x25BC;</span>
+                                </div>
+                                <ul class="sub-sub-menu">
+                                    <li class="one">
+                                        <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
+                                        <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li>
+                                    <!-- Add more sub-menu items as needed -->
+                                    </li>
+                                </ul>
+                                <!-- MEGA 4 -->
+                                <div class="dropdownlink" style="color: black;">
+                                    <span style="padding-left: 10px" class="text-uppercase">Plots &#x25BC;</span>
+                                </div>
+                                <ul class="sub-sub-menu">
+                                    <li class="one">
+                                        <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
+                                        <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li>
+                                    <!-- Add more sub-menu items as needed -->
+                                    </li>
+                                </ul>
+                            <!-- <li><a href="property1-sub1.html">Property 1 Submenu 1</a></li>
+                            <li><a href="property1-sub2.html">Property 1 Submenu 2</a></li> -->
+                            <!-- Add more sub-menu items as needed -->
+                            </li>
+                        </ul>
+
                     <!-- Add more sub-menu items as needed -->
+                    </li>
                 </ul>
             </li>
             <li class="one">
                 <div class="dropdownlink" style="color: black;">
-                    <span class="text-uppercase">Property 2 &#x25BC;</span>
+                    <span class="text-uppercase">New Delhi &#x25BC;</span>
                 </div>
                 <!-- Sub-menu for Property 2 -->
                 <ul class="sub-sub-menu">
@@ -223,7 +345,7 @@ li:click .sub-menu {
             
                 <li class="one">
                 <div class="dropdownlink" style="color: black;">
-                    <span class="text-uppercase">Property 3 &#x25BC;</span>
+                    <span class="text-uppercase">Noida &#x25BC;</span>
                 </div>
                 <!-- Sub-menu for Property 3 -->
                 <ul class="sub-sub-menu">
@@ -238,7 +360,14 @@ li:click .sub-menu {
     <li>
         <div class="dropdownlink">
             <span class="text-uppercase">
-                <a href="portfolio.html">Career</a>
+                <a href="career.html">Career</a>
+            </span>
+        </div>
+    </li>
+    <li>
+        <div class="dropdownlink">
+            <span class="text-uppercase">
+                <a href="Become_a_Real_Estate_Agent.html">Become a Real Estate Agent</a>
             </span>
         </div>
     </li>
@@ -267,6 +396,7 @@ li:click .sub-menu {
                 </div>
             </div>
         </header>
+    
         <!-- end header -->
         <!-- start banner -->
         <section class="banner-one pt-70 pb-70 position-relative overflow-hidden bg-img-zoom d-flex justify-content-center align-items-center">
@@ -284,8 +414,8 @@ li:click .sub-menu {
                 <div class="floating-social-box position-absolute d-flex align-items-center justify-content-center">
                     <ul class="d-flex">
                         <li class="text-white floating-social-icon">
-                            <a href="https://twitter.com">
-                                <i class="fa-brands fa-twitter"></i>
+                            <a href="https://instagram.com">
+                                <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li class="text-white floating-social-icon">
@@ -327,7 +457,7 @@ li:click .sub-menu {
                                                 passionate about creating beautiful, functional spaces that enhance yours
                                                 lives.
                                             </p>
-                                            <a href="portfolio.html" class="btn brand-btn text-uppercase border-0"><span class="z-1 position-relative">View all Properties</span></a>
+                                            <a href="properties.html" class="btn brand-btn text-uppercase border-0"><span class="z-1 position-relative">View all Properties</span></a>
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-4 col-xl-5"></div>
@@ -365,7 +495,7 @@ li:click .sub-menu {
                                         We use only the highest quality materials and finishes, and we offer a wide range of services to meet your needs.
                                         We are confident that we can create the perfect space for you, so contact us today to learn more!
                                         </p>
-                                        <a href="portfolio.html" class="btn brand-btn text-uppercase mt-30"><span class="z-1 position-relative">Contact Us</span></a>
+                                        <a href="contact.html" class="btn brand-btn text-uppercase mt-30"><span class="z-1 position-relative">Contact Us</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -421,7 +551,7 @@ li:click .sub-menu {
                     <div class="col-6 col-xl-3">
                         <div class="count-one-border position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
                             <div class="counter-container">
-                                <h1 class="h1 dark-text"><span class="counter">46</span>K</h1>
+                                <h1 class="h1 dark-text"><span>46</span>K</h1>
                                 <h4 class="h4 fw-400 line-height-1 body-text">
                                     Project Completed
                                 </h4>
@@ -431,7 +561,7 @@ li:click .sub-menu {
                     <div class="col-6 col-xl-3">
                         <div class="count-one-border position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
                             <div class="counter-container">
-                                <h1 class="h1 dark-text"><span class="counter">3</span>K</h1>
+                                <h1 class="h1 dark-text"><span >3</span>K</h1>
                                 <h4 class="h4 fw-400 line-height-1 body-text">
                                     Happy customers
                                 </h4>
@@ -441,7 +571,7 @@ li:click .sub-menu {
                     <div class="col-6 col-xl-3">
                         <div class="count-one-border position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
                             <div class="counter-container">
-                                <h1 class="h1 dark-text"><span class="counter">126</span></h1>
+                                <h1 class="h1 dark-text"><span>126</span></h1>
                                 <h4 class="h4 fw-400 line-height-1 body-text">
                                     Properties sold
                                 </h4>
@@ -451,7 +581,7 @@ li:click .sub-menu {
                     <div class="col-6 col-xl-3">
                         <div class="position-relative py-3 py-sm-3 py-lg-4 py-xl-0">
                             <div class="counter-container">
-                                <h1 class="h1 dark-text"><span class="counter">24</span></h1>
+                                <h1 class="h1 dark-text"><span class="counter1">24</span></h1>
                                 <h4 class="h4 fw-400 line-height-1 body-text">
                                     Awards Achievement
                                 </h4>
@@ -486,13 +616,13 @@ li:click .sub-menu {
                                     </div>
                                     <div class="position-absolute service-one-contents z-1">
                                         <h5 class="h5 fw-700 text-white line-height-3 mb-25">
-                                            Signature Global City 92
+                                            Signature Global City 92 - 2
                                         </h5>
                                         <p class="p text-white fw-500 line-height-5 mb-65">
                                            <strong> FOR SALE | APARTMENT</strong> <br/><strong>Loaction:</strong> Gurugram<br/><strong> Bedrooms:</strong> 2/3,<br/> <strong>Bathrooms:</strong> 2/3,<br/> <strong>Property size:</strong> 1190-2009 ft²
 
                                         </p>
-                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="Signature_Global_City_92_2.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="item service-one-card position-relative">
@@ -507,46 +637,46 @@ li:click .sub-menu {
                                            <strong> FOR SALE | APARTMENT</strong> <br/><strong>Loaction:</strong> Gurugram<br/><strong> Bedrooms:</strong> 2/3,<br/> <strong>Bathrooms:</strong> 2/3,<br/> <strong>Property size:</strong> 1414-2395 ft²
 
                                         </p>
-                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="Signature_Global_City_93.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <div class="service-one-card-stroke position-absolute"></div>
                                 </div>
                                 <div class="item service-one-card position-relative">
                                     <div class="service-imag">
-                                        <img src="images/𝗕𝗛𝗨𝗧𝗔𝗡𝗜𝗖𝗬𝗕𝗘𝗥𝗧𝗛𝗨𝗠/1.jpg" alt="Service Images" style="opacity: 0.5;">
+                                        <img src="images/SIGNATUREGLOBAL–37D/1.jpg" alt="Service Images" style="opacity: 0.5;">
                                     </div>
                                     <div class="position-absolute service-one-contents z-1">
                                         <h5 class="h5 fw-700 text-white line-height-3 mb-25">
-                                            Bhutani Cyberthum
+                                            Signature Global City 37D
                                         </h5>
                                         <p class="p text-white fw-500 line-height-5 mb-65">
-                                           <strong> COMMERCIAL | FOR SALE | HOT OFFER!</strong> <br/><strong>Loaction:</strong> Noida<br/><strong>Property size:</strong> 100 SQ. FT. Onwards ft²
+                                           <strong>Apartment</strong> <br/><strong>Loaction:</strong> Gurugram<br/><strong> Bedrooms:</strong> 2/3,<br/> <strong>Bathrooms:</strong> 3,<br/><strong>Property size:</strong> 1060-1535 ft²
 
                                         </p>
-                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="Signature_Global_City_37D.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <div class="service-one-card-stroke position-absolute"></div>
                                 </div>
                                 <div class="item service-one-card position-relative">
                                     <div class="service-imag">
-                                        <img src="images/ArawaliHomes2/1.jpeg" alt="Service Images" style="opacity: 0.4;">
+                                        <img src="images/GANGAREALTY-TATHASTU/1.jpg" alt="Service Images" style="opacity: 0.4;">
                                     </div>
                                     <div class="position-absolute service-one-contents z-1">
                                         <h5 class="h5 fw-700 text-white line-height-3 mb-25">
-                                            Arawali Homes 2
+                                            Ganga Realty Tathastu
                                         </h5>
                                         <p class="p text-white fw-500 line-height-5 mb-65">
-                                           <strong>APARTMENT</strong> <br/><strong>Loaction:</strong> Sohna<br/><strong> Bedrooms:</strong> 3,<br/> <strong>Bathrooms:</strong> 2,<br/> <strong>Property size:</strong> 645 ft²
+                                           <strong>APARTMENT</strong> <br/><strong>Loaction:</strong> Gurugram<br/><strong> Bedrooms:</strong> 3,<br/> <strong>Bathrooms:</strong> 3,<br/> <strong>Property size:</strong> 645 ft²
 
                                         </p>
-                                        <a class="btn p-0 text-white text-uppercase fw-500" href="about.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a class="btn p-0 text-white text-uppercase fw-500" href="Ganga_Realty-Tathastu.html"><span class="me-2">Learn More</span> <i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                     <div class="service-one-card-stroke position-absolute"></div>
                                 </div>
                             </div>
 
                         </div>
-                        <a href="portfolio.html" class="btn brand-btn text-uppercase mt-30"><span class="z-1 position-relative">View all properties</span></a>
+                        <a href="properties.html" class="btn brand-btn text-uppercase mt-30"><span class="z-1 position-relative">View all properties</span></a>
                     </div>
                 </div>
             </div>
@@ -560,7 +690,7 @@ li:click .sub-menu {
                         <div class="row align-items-center">
                             <div class="col-12 col-lg-6 ">
                                 <div class="projects-one-item">
-                                    <a href="portfolioDetails.html">
+                                    <a href="properties_in_gurugram.html">
                                         <h2 class="h2 text-uppercase fw-700 line-height-3 projects-text-stroke d-inline-block stroke-mobile-position">
                                             GURUGRAM
                                         </h2>
@@ -570,14 +700,14 @@ li:click .sub-menu {
                                             Find Properties In Your City
                                         </h2>
                                         <div class="project-img-ontainer">
-                                            <img class="home-one-portfolio-first-img" src="images/1.jpg" alt="project image">
-                                            <a href="portfolioDetails.html" class="btn text-uppercase project-btn">
+                                            <img class="home-one-portfolio-first-img" src="images/gurugram.jpg" alt="project image">
+                                            <a href="properties_in_gurugram.html" class="btn text-uppercase project-btn">
                                                 <span class="position-relative z-1">View Properties</span>
                                                 <i class="fa-solid fa-arrow-right-long ms-2"></i>
                                             </a>
                                         </div>
                                         <h6 class="h6 dark-text line-height-3 fw-700 mt-15">GURUGRAM</h6>
-                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="100" href="portfolio.html" class="btn brand-btn text-uppercase mt-100 d-none d-lg-inline-block">
+                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="100" href="properties.html" class="btn brand-btn text-uppercase mt-100 d-none d-lg-inline-block">
                                             <span class="z-1 position-relative">View
                                                 Properties</span>
                                         </a>
@@ -587,31 +717,31 @@ li:click .sub-menu {
                             <div class="col-12 col-lg-6 ">
                                 <div class="mt-5 mt-lg-0">
                                     <div class="ml-100 projects-one-item">
-                                        <a href="portfolioDetails.html">
+                                        <a href="properties_in_newdelhi.html">
                                             <h2 class="h2 text-uppercase fw-700 line-height-3 projects-text-stroke d-inline-block">
-                                               SOHNA</h2>
+                                               New Dehli</h2>
                                         </a>
                                         <div class="projects-one-contents">
                                             <div class="project-img-ontainer">
-                                                <img class="home-one-portfolio-second-img" src="images/projectsTwo.jpg" alt="project image">
-                                                <a href="portfolioDetails.html" class="btn text-uppercase project-btn">
+                                                <img class="home-one-portfolio-second-img" src="images/newdelhi.jpg" alt="project image">
+                                                <a href="properties_in_newdelhi.html" class="btn text-uppercase project-btn">
                                                     <span class="position-relative z-1">View Properties</span>
                                                     <i class="fa-solid fa-arrow-right-long ms-2"></i>
                                                 </a>
                                             </div>
-                                            <h6 class="h6 dark-text line-height-3 fw-700 mt-15">SOHNA
+                                            <h6 class="h6 dark-text line-height-3 fw-700 mt-15">New Dehli
                                             </h6>
                                         </div>
                                     </div>
                                     <div class="project-item-left-padding mt-60 projects-one-item">
-                                        <a href="portfolioDetails.html">
+                                        <a href="properties_in_noida.html">
                                             <h2 class="h2 text-uppercase fw-700 line-height-3 projects-text-stroke d-inline-block project-text-stroke-utility">
                                                 NOIDA</h2>
                                         </a>
                                         <div class="projects-contents">
                                             <div class="project-img-ontainer text-end">
-                                                <img class="home-one-portfolio-third-img" src="https://images.unsplash.com/photo-1600047508788-786f3865b4b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="project image">
-                                                <a href="portfolioDetails.html" class="btn text-uppercase project-btn">
+                                                <img class="home-one-portfolio-third-img" src="images/noida.jpg" alt="project image">
+                                                <a href="properties_in_noida.html" class="btn text-uppercase project-btn">
                                                     <span class="position-relative z-1">View Properties</span>
                                                     <i class="fa-solid fa-arrow-right-long ms-2"></i>
                                                 </a>
@@ -621,7 +751,7 @@ li:click .sub-menu {
                                         </div>
                                     </div>
                                     <div class="project-mobile-cta-button">
-                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="100" href="portfolio.html" class="btn brand-btn text-uppercase mt-60 d-inline-block d-lg-none">
+                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="100" href="properties.html" class="btn brand-btn text-uppercase mt-60 d-inline-block d-lg-none">
                                             <span class="z-1 position-relative">View
                                                 Properties</span>
                                         </a>
@@ -808,6 +938,8 @@ li:click .sub-menu {
             </div>
           </div>
       </div></section>
+
+
    
         
         
@@ -1069,71 +1201,26 @@ li:click .sub-menu {
             </div>
         </section>
         <!-- end blog -->
-        <!-- start footer -->
-        <footer class="footer-one">
+        <!-- start work together -->
+        <section class="work-together ">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-sm-5">
-                                <div class="logo-container">
-                                    <img class="header-logo" src="images/logo.png" alt="logo">
-                                </div>
-                                <p class="p text-white fw-500 line-height-5 mt-15">
-                                    Welcome to Discovery Homes India! Our team of experienced designers and decorators is passionate about creating beautiful, functional spaces that enhance yours lives.
-                                </p>
-                                <h5 class=" text-white mt-30 ">info@email.com</h5>
-                            </div>
-                            <div class="col-12 col-sm-3">
-                                <div class="mt-5 mt-sm-0">
-                                    <ul class="d-flex flex-column gap-4">
-                                        <li><a class="fw-500 text-uppercase" href="index.html">Home</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="about.html">About</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="services.html">Properties</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="portfolio.html">Career</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="blog.html">Blog</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="contact.html">Contact us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <div class="d-flex align-items-start mb-30 mt-5 mt-sm-0">
-                                    <i class="fa-solid fa-location-dot brand-text d-inline-block mr-10 mt-2"></i>
-                                    <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        901 N Pitt Str., Suite 170
-                                        Mumbai, IN, India
-                                    </h6>
-                                </div>
-                                <div class="d-flex align-items-start mb-30">
-                                    <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
-                                    <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        +91 12344567775
-                                    </h6>
-                                </div>
-                                <div class="d-flex align-items-start mb-30">
-                                    <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
-                                    <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        +91 345465744
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-100 d-flex justify-content-between align-items-center flex-column flex-xl-row">
-                            <div class="footer-one-social-container">
-                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://facebook.com"><span class="z-1 position-relative">Facebook</span></a>
-                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://linkedin.com"><span class="z-1 position-relative">LinkedIn</span></a>
-                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://instagram.com"><span class="z-1 position-relative">Instagram</span></a>
-                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://twitter.com"><span class="z-1 position-relative">Twitter</span></a>
-                                <a class="btn dark-btn mb-4 mb-lg-0" href="https://dribble.com"><span class="z-1 position-relative">Dribble</span></a>
-                            </div>
-                            <p class="p fw-500 line-height-3 footer-copyright-text pt-4 pt-xl-0">
-                                Copyright 2023, All Right reserved
+                        <div class="d-flex align-items-center justify-content-center flex-column work-together-content-wrapper">
+                            <p class="p text-white fw-500 line-height-3 mb-10">
+                                Let’s Work Together
                             </p>
+                            <h2 class="h2 fw-700 line-height-3 text-white text-center">Let's Create Your Dream Space
+                                Together!</h2>
+                            <a href="contact.html" class="btn brand-btn text-uppercase mt-50 border-0"><span class="z-1 position-relative">Contact Us Now</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
+        <!-- end work together -->
+        <!-- start footer -->
+        <div id="footerimport"></div>
         <!-- end footer -->
     </main>
 
@@ -1162,6 +1249,7 @@ li:click .sub-menu {
     <script src="js/jquery.animatedheadline.min.js"></script>
     <!-- Main JS script -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
